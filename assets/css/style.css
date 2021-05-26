@@ -28,23 +28,14 @@ h1, h2, h3, h4 ,h5 ,h6 {
 
 h1{
     font-size: 6rem;
-    text-transform: uppercase;
 }
 h2 {
     font-size: 5.0rem;
 }
 h3 {
-    font-size: 4.5rem;
-}
-h4 {
-    font-size: 4.0rem;
-}
-h5 {
     font-size: 3.5rem;
 }
-h6 {
-    font-size: 3.0rem;
-}
+
 
 .main-bg {
     background-image: url(../svgs/Endless-Constellation.svg);
@@ -156,4 +147,26 @@ a {
     margin-top: 2rem;
 }
 
+/*Portfolio*/
+.port-content {
+width: 100%;
+
+}
+.port-txt {
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+
+}
+
+.port-projects {
+    padding-top: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-left: 5%;
+}
+.project-1 h3 {
+    padding-bottom: 1rem;
+}
 

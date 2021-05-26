@@ -167,6 +167,12 @@ width: 100%;
     margin-left: 5%;
 }
 .project-1 h3 {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+}
+.gif-lpg {
+    max-width: 60%;
+    max-height: 60%;
+    width: auto;
+    height: auto;
 }
 

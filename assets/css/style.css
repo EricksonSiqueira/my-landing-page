@@ -19,7 +19,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 h1, h2, h3, h4 ,h5 ,h6 {
@@ -68,6 +68,9 @@ h6 {
     gap: var(--gap);
 }
 
+a {
+    text-decoration: none;
+}
 /*Criando o menu*/
 
 .menu {
@@ -100,15 +103,22 @@ h6 {
     padding: 0.5rem;
 
 }
+/*Animação ao passar por cima dos botões do menu*/
 
+/*
 .menu .links a:hover{
     box-shadow: 0 0 1rem 0.5rem var(--secondary-color);
     border-radius: 0.5rem;
     transition: all 600ms ease-in-out;
 
 }
+*/
+.space-menu {
+    height: 6.3rem;
+    width: 100%;
+}
 
-/*
+
 .menu .links li a::after {
     content: '';
     position: absolute;
@@ -123,9 +133,27 @@ h6 {
     left: 25%;
     width: 50%;
 }
-*/
 
 
-a {
-    text-decoration: none;
+/*Inicio*/
+
+.inicio-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    max-width: 100%;
 }
+
+.inicio-txt {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.inicio-txt p{
+    margin-top: 2rem;
+}
+
+

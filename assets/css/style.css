@@ -95,15 +95,17 @@ h6 {
     color: inherit;
     display: block;
     margin: 1rem;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     position: relative;
-    padding: 1rem;
+    padding: 0.5rem;
+
 }
 
 .menu .links a:hover{
     box-shadow: 0 0 1rem 0.5rem var(--secondary-color);
     border-radius: 0.5rem;
     transition: all 600ms ease-in-out;
+
 }
 
 /*

@@ -135,6 +135,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     max-width: 100%;
+    min-height: 100vh;
 }
 
 .inicio-txt {
@@ -153,6 +154,7 @@ a {
 /*Portfolio*/
 .port-content {
 width: 100%;
+min-height: 100vh;
 
 }
 .port-txt {
@@ -179,5 +181,34 @@ width: 100%;
     width: auto;
     height: auto;
     padding-bottom: 3rem;
+}
+
+/*Contato*/
+
+.grid-contatos{
+    padding-top: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rede {
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    flex-flow: column nowrap;
+    transition: all 400ms ease-out;
+}
+
+
+.rede#linkedin {
+    height: 20%;
+}
+
+.gif-mail {
+    margin-left: 10%;
+}
+
+.redes {
+    
 }
 

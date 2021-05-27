@@ -124,6 +124,9 @@ a {
     left: 25%;
     width: 50%;
 }
+.menu .links a:hover {
+    color: rgb(99, 97, 97);
+}
 
 
 /*Inicio*/

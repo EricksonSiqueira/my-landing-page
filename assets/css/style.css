@@ -169,8 +169,9 @@ width: 100%;
     text-align: center;
     margin-left: 5%;
 }
-.project-1 h3 {
+.project-1 p {
     padding-bottom: 2rem;
+    font-size: 3rem;
 }
 .gif-lpg {
     max-width: 40rem;

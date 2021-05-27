@@ -205,6 +205,8 @@ min-height: 100vh;
 
 }
 
+/*Animação dos contatos*/
+
 .rede:hover {
     cursor: pointer;
     transform: translateY(-1.5rem);

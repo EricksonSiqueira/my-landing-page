@@ -189,6 +189,7 @@ min-height: 100vh;
     padding-top: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    overflow-x: hidden;
 }
 
 .rede {
@@ -197,6 +198,7 @@ min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     transition: all 400ms ease-out;
+
 }
 
 
@@ -213,6 +215,8 @@ min-height: 100vh;
 .redes {
     width: 100%;
     margin-left: 25%;
+
+
 }
 
 .port-txt .contact-h2 {

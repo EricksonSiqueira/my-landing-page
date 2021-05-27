@@ -198,12 +198,15 @@ min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     transition: all 400ms ease-out;
+    border-radius: 50%;
+    margin-bottom: 1.8rem;
 
 }
 
-
-.rede#linkedin {
-    height: 20%;
+.rede:hover {
+    cursor: pointer;
+    transform: translateY(-1.5rem);
+    box-shadow: 3px 25px 16px 0px rgba(50, 50, 50, 0.45);
 }
 
 .gif-mail {
@@ -215,11 +218,19 @@ min-height: 100vh;
 .redes {
     width: 100%;
     margin-left: 25%;
-
-
 }
 
 .port-txt .contact-h2 {
     font-style: italic;
+}
+
+.rede#linkedin {
+    background-color: #0A66C2;
+}
+.rede#github {
+    background-color: #161B22;
+}
+.rede#gmail {
+    background-color: #D64B3F;
 }
 

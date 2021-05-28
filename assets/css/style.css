@@ -5,6 +5,7 @@
     --primary-color: #080008;
     --secondary-color: #6d87cc;
     --gap: 2.5rem;
+    --cor-linha: rgb(228, 225, 225);
 }
 * {
     margin: 0;
@@ -244,5 +245,23 @@ min-height: 100vh;
 .icone.linkedin {
     height: 8rem;
     width: 8rem;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: 0.1rem solid var(--cor-linha);
+    margin-top: 1rem;
+    min-width: 100%;
+}
+
+.footer a span {
+    color: red;
+}
+
+.footer a {
+    color: var(--primary-color);
 }
 

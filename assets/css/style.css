@@ -211,7 +211,7 @@ min-height: 100vh;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-
+    margin-top: 5rem;
 }
 
 /*Animação dos contatos*/
@@ -241,9 +241,6 @@ min-height: 100vh;
 }
 .rede#github {
     background-color: #161B22;
-}
-.rede#gmail {
-    background-color: #D64B3F;
 }
 
 .icone.github{
